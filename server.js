@@ -1,8 +1,13 @@
-const http = require('http')
-const fs = require('fs')
-const path = require('path')
+// Node core modules
+const http = require('http') // to create server
+const fs = require('fs') // to create, read, write and edit file
+const path = require('path') // to deal with file paths and file names
 
 // read, write, delete, rewrite, append,
+
+// __dirname, to access the current directory path
+// __filename to acces the current filename
+
 
 console.log('what is dirname', __dirname + '/index.html')
 console.log('filename', __filename)
